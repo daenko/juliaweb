@@ -1,0 +1,124 @@
+######################## default configuration ####################
+baseURL = "https://juliaweb.site/"
+title = "Julia Web"
+theme = "bigspring"
+languageName = "En"
+languageCode = "en-us"
+# post pagination
+paginate = "6"
+# post excerpt
+summaryLength = "15"
+# disqus short name
+disqusShortname = "" # get your shortname form here : https://disqus.com
+# google analytics
+googleAnalytics = "" # example : UA-123-45
+# unsafe html
+[markup.goldmark.renderer]
+unsafe = true
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+
+
+############################## navigation ###############################
+
+# main menu
+[[menu.main]]
+name = "Portfolio"
+URL = "portfolio"
+weight = 1
+
+[[menu.main]]
+name = "Pricing"
+URL = "pricing"
+weight = 2
+
+[[menu.main]]
+name = "Contact"
+URL = "contact"
+weight = 3
+
+[[menu.main]]
+name = "Testimonials"
+URL = "testimonials"
+weight = 4
+
+[[menu.main]]
+name = "About"
+URL = "about"
+weight = 5
+
+# footer menu left
+[[menu.footer_left]]
+name = "About"
+URL = "about"
+
+[[menu.footer_left]]
+name = "Testimonials"
+URL = "testimonials"
+
+
+# footer menu middle
+[[menu.footer_middle]]
+name = "Pricing"
+URL = "pricing"
+
+[[menu.footer_middle]]
+name = "Portfolio"
+URL = "portfolio"
+
+# footer menu right
+[[menu.footer_right]]
+name = "Upwork"
+URL = "https://www.upwork.com/fl/jborodaenko"
+
+[[menu.footer_right]]
+name = "LinkedIn"
+URL = "https://www.linkedin.com/in/julia-borodaenko-257236133/"
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.png"
+logo_width = "100px"
+# Meta data
+description = "This is meta description"
+author = "Themefisher"
+# contact form action
+contact_form_action = "https://formspree.io/f/maylvqzk" # contact form works with https://formspree.io
+
+########### footer content ##########
+footer_menu_left = "About"
+footer_menu_middle = "My works"
+footer_menu_right = "Links"
+footer_content = "Happy to make your website idea a reality!"
+# copyright
+copyright = "Copyright © 2021 Julia Web"
+
+# Preloader
+[params.preloader]
+enable = false
+preloader = "" # use jpg, png, svg or gif format.
+
+# Navigation buttons
+[params.navigation_button]
+enable = true
+label = "Get Started"
+link = "contact"
+
+
+############################# social site ########################

@@ -1,0 +1,122 @@
+####################### Banner #########################
+banner:
+  title : "Web Design and Development"
+  image : "images/main.svg"
+  content : "Happy to make your website idea a reality!<br><br>
+
+    **Freelance Web Designer & Developer based in Scotts Valley, California. Highly experienced in designing & developing custom websites.**"
+
+  button:
+    enable : true
+    label : "Contact"
+    link : "contact"
+
+##################### Feature ##########################
+feature:
+  enable : true
+  title : "Skills"
+  feature_item:
+    # feature item loop
+    - name : "Design"
+      icon : "ti-palette"
+      content : "Constantly learning new trends and features in web design and willing to share my experience, knowledge, and creativity."
+
+    # feature item loop
+    - name : "Development"
+      icon : "ti-package"
+      content : "Highly experienced in HTML, CSS. Use WordPress CMS to implement web pages to meet clients' needs."
+
+    # feature item loop
+    - name : "Marketing"
+      icon : "ti-credit-card"
+      content : "Help to create web compliant metadata for SEO find-ability and to get stronger results using marketing analytics tools."
+
+    # feature item loop
+    - name : "Photo and Video Editing"
+      icon : "ti-gallery"
+      content : "Help to choose and edit images and video files for your website."
+
+    # feature item loop
+    - name : "Coding"
+      icon : "ti-pulse"
+      content : "Basics of JavaScript, Python, Django, PHP, MySQL, Linux command line."
+
+    # feature item loop
+    - name : "Teaching"
+      icon : "ti-cloud-up"
+      content : "Having 6 years of teaching experience, will teach you how to edit and maintain your website."
+
+
+
+######################### Service #####################
+service:
+  enable : true
+  service_item:
+    # service item loop
+    - title : "Web design and development from scratch"
+      images:
+      - "images/inna.png"
+      - "images/camp.png"
+      - "images/onyi.png"
+      content : "Created logo and design of the websites. Developed responsive web pages, managed content and SEO, set up Google Analytics."
+      button:
+        enable : true
+        label : "Check it out"
+        link : "portfolio"
+
+    # service item loop
+    - title : "Pixel perfect web pages using client's mockup"
+      images:
+      - "images/consulting.png"
+      - "images/grow.png"
+      - "images/lets.png"
+      content : "Worked as a web developer with a team of graphic designers, developers, project managers, and digital marketing specialists. Developed responsive web pages, managed content and SEO, set up Google Analytics."
+      button:
+        enable : true
+        label : "Check it out"
+        link : "portfolio"
+
+    # service item loop
+    - title : "Websites for non-profits"
+      images:
+      - "images/donate.png"
+      - "images/instep4.png"
+      - "images/school.png"
+      content : "Created the multilanguage websites with memberships, mailchimp and zoho (CRM) integration. Set up events and donation campaigns."
+      button:
+        enable : true
+        label : "Check it out"
+        link : "portfolio/page/2/"
+
+    # service item loop
+    - title : "Ecommerce"
+      images:
+      - "images/shop.png"
+      - "images/food.png"
+
+      content : "Created online shops with categories, restaurant with online ordering, price lists. "
+      button:
+        enable : true
+        label : "Check it out"
+        link : "https://innaglass.com/shop/"
+
+################### Screenshot ########################
+screenshot:
+  enable : false
+  title : "Testimonials"
+  image : "images/testi1.svg"
+
+
+
+
+
+##################### Call to action #####################
+call_to_action:
+  enable : true
+  title : "Testimonials"
+  image : "images/testi1.svg"
+  content : "We deeply appreciate Julia’s work creating a WordPress website for our Youth4Climate program. She’s been professional, creative, and extremely responsive and reliable, and just a pleasure to work with. She’s helped us navigate changes in direction, made many insightful recommendations on how to implement our vision, been patient with our modifications, and helped our volunteers learn how to use the website tools. "
+  button:
+    enable : true
+    label : "Read All"
+    link : "testimonials"

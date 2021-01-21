@@ -1,0 +1,135 @@
+####################### Banner #########################
+banner:
+  title : "About"
+  image : "images/me.png"
+  content : "Happy to make your website idea a reality!"
+
+  button:
+    enable : false
+    label : "Contact"
+    link : "contact"
+
+##################### Feature ##########################
+feature:
+  enable : false
+  title : ""
+  feature_item:
+    # feature item loop
+    - name : "Why choose me"
+      icon : "ti-layout-media-center-alt"
+      content : "You will get a professionally looking website that will bring your company to the next level. With over 3 years of experience in freelance wed design, I focus on creating a perfect user experience on mobile and desktop."
+
+    # feature item loop
+    - name : "Website Specialization"
+      icon : "ti-list"
+      content : "Business, Education,<br> Entertainment, Restaurant,<br> Non-Profit, Blog,<br> Portfolio, Crowdfunding."
+
+    # feature item loop
+    - name : "What I Do"
+      icon : "ti-check"
+      content : "UI UX Design<br>
+Website Development<br>
+Marketing<br>
+Social Media<br>
+eCommerce Store<br>
+Tech Support."
+
+    # feature item loop
+    - name : "Skills"
+      icon : "ti-book"
+      content : "HTML5, CSS3, WordPress<br>
+JavaScript, JQuery, Bootstrap<br>
+SEO, Google Analytics<br>
+Basics of Python, Django<br> PHP, MySQL, Linux command line<br>
+Photo and video editing."
+
+    # feature item loop
+    - name : "Experience"
+      icon : "ti-anchor"
+      content : "<b> 3 years</b> of web-development and web-design, 20+ projects. Worked with 20+ organizations from around the USA, developing websites that include e-commerce, CRM integration, portfolio. Served as webmaster for businesses and non-profits.<br><br>
+        <b>6 years</b> of teaching web development and e-commerce.
+
+"
+
+    # feature item loop
+    - name : "Education"
+      icon : "ti-bag"
+      content : "<b>2015 – 2017</b> Certificate of Achievement in Web Development (GPA 3.94), De Anza College, Cupertino, USA<br>
+<b>2002 – 2005</b> Master Degree in Computer Science, Belarusian State University of Informatics and Radioelectronics, Minsk, Belarus<br>
+<b>1994 – 1999</b> Bachelor Degree in Business Information Systems, Belarusian State University of Informatics and Radioelectronics, Minsk, Belarus. "
+
+
+
+######################### Service #####################
+service:
+  enable : true
+  service_item:
+    # service item loop
+    - title : "Why choose me"
+      images:
+      - "images/design.png"
+
+      content : "You will get a professionally looking website that will bring your company to the next level. With over 3 years of experience in freelance wed design, I focus on creating a perfect user experience on mobile and desktop."
+      button:
+        enable : true
+        label : "Prices"
+        link : "prices"
+
+    # service item loop
+    - title : "What I Do"
+      images:
+      - "images/design2.jpg"
+
+      content : "UI UX Design, Website Development, Tech Support,
+Marketing, Social Media, eCommerce Store.<br><br>
+<b>Website Specialization</b>: Business, Education, Entertainment, Restaurant, Non-Profit, Blog, Portfolio, Crowdfunding."
+      button:
+        enable : true
+        label : "Portfolio"
+        link : "portfolio"
+
+    # service item loop
+    - title : "Skills & Experience"
+      images:
+      - "images/drawing1.svg"
+
+      content : "HTML5, CSS3, WordPress, JavaScript, JQuery, Bootstrap, SEO, Google Analytics. Basics of Python, Django, PHP, MySQL, Linux command line, photo and video editing. <br><br><b>3 years</b> of web-development and web-design, 20+ projects. Worked with 20+ organizations from around the USA, developing websites with e-commerce, CRM integration, portfolio. Served as webmaster for businesses and non-profits.<br><br>
+        <b>6 years</b> of teaching web development and e-commerce."
+      button:
+        enable : true
+        label : "View my Upwork profile"
+        link : "https://www.upwork.com/fl/jborodaenko"
+
+    # service item loop
+    - title : "Education"
+      images:
+      - "images/certificate.jpg"
+
+      content : "<b>2015 – 2017</b> Certificate of Achievement in Web Development (GPA 3.94), De Anza College, Cupertino, USA.<br>
+<b>2002 – 2005</b> Master Degree in Computer Science, Belarusian State University of Informatics and Radioelectronics, Minsk, Belarus.<br>
+<b>1994 – 1999</b> Bachelor Degree in Business Information Systems, Belarusian State University of Informatics and Radioelectronics, Minsk, Belarus."
+      button:
+        enable : true
+        label : "Download my resume"
+        link : "https://drive.google.com/file/d/1oAGfAMjikSRU0JNfrPXXwA7ZUwkJ7UTy/view?usp=sharing"
+
+################### Screenshot ########################
+screenshot:
+  enable : false
+  title : "Testimonials"
+  image : "images/screenshot1.svg"
+
+
+
+
+
+##################### Call to action #####################
+call_to_action:
+  enable : false
+  title : "Testimonials"
+  image : "images/Computer.svg"
+  content : "We deeply appreciate Julia’s work creating a WordPress website for our Youth4Climate program. She’s been professional, creative, and extremely responsive and reliable, and just a pleasure to work with. She’s helped us navigate changes in direction, made many insightful recommendations on how to implement our vision, been patient with our modifications, and helped our volunteers learn how to use the website tools. "
+  button:
+    enable : true
+    label : "Read All"
+    link : "testimonials"
